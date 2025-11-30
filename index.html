@@ -1,47 +1,338 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="et">
 <head>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tark maja</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Targad asjad – Tark maja</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Tark maja</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#home">Targad asjad</a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mainNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tark-maja">Tark maja</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#andurid">Andurid</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#autor">Autor</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
-    <h1>Tark maja</h1>
-    <p>Juba mitmeid aastaid räägitakse ajakirjanduses järjest sagedamini nn. targast majas.Mis on selle mõiste taga ja mida peaks teadma kui plaanis oma majasse tarkust panna?</p>
-    <br/>
-    <p>Tekst</p>
-    <a href="https://www.majaehitaja.ee/mis-asi-on-tark-maja/" target="_blank">Allikas(majaehitaja)</a>
-</br>
-    <img src="images/smarthomepilt.jpg">
+  </nav>
+
+  <section id="home" class="py-4">
+    <div class="container">
+      <h1 class="mb-3">Targad asjad - tark maja</h1>
+      <p>
+        Sellel lehel on näide targa maja rakendusest. Targa maja
+        juhtimiseks kasutatakse erinevaid andureid, mis mõõdavad
+        keskkonda ja aitavad hoonet automaatselt juhtida.
+      </p>
+    </div>
+  </section>
+
+  <section id="tark-maja" class="bg-light">
+    <div class="container">
+      <h2 class="mb-3">Mis on tark maja?</h2>
+      <div class="row">
+          <p>
+            Tark maja on hoone, kus seadmeid ja süsteeme
+            (valgustus, küte, ventilatsioon, turvasüsteemid)
+            juhitakse automaatselt andurite ja nutiseadmete abil.
+          </p>
+          <p>
+            Eesmärk on muuta elu mugavamaks, energiasäästlikumaks
+            ja turvalisemaks. Näiteks saab maja ise valgust sisse lülitada,
+            kui keegi tuppa tuleb, või vähendada kütet, kui aknad on lahti.
+          </p>
+        </br>
+        <div class="text-center">
+          <div class="image-wrapper">
+  <img src="images/tarkmaja.jpg" class="img-fluid" alt="Targa maja pilt" />
+
+  <a
+    href="https://et.wikipedia.org/wiki/Temperatuuriandur"
+    class="sensor-number"
+    style="top: 82%; left: 6%;"
+    target="_blank"
+    data-bs-toggle="tooltip"
+    title="Temperatuuriandur"
+  >
+    1
+  </a>
+
+    <a
+    href="https://et.wikipedia.org/wiki/Temperatuuriandur"
+    class="sensor-number"
+    style="top: 68%; left: 6%;"
+    target="_blank"
+    data-bs-toggle="tooltip"
+    title="Temperatuuriandur"
+  >
+    2
+  </a>
+
+    <a
+    href="https://et.wikipedia.org/wiki/Temperatuuriandur"
+    class="sensor-number"
+    style="top: 50%; left: 6%;"
+    target="_blank"
+    data-bs-toggle="tooltip"
+    title="Temperatuuriandur"
+  >
+    3
+  </a>
+
+    <a
+    href="https://et.wikipedia.org/wiki/Temperatuuriandur"
+    class="sensor-number"
+    style="top: 32%; left: 6%;"
+    target="_blank"
+    data-bs-toggle="tooltip"
+    title="Temperatuuriandur"
+  >
+    4
+  </a>
+
+    <a
+    href="https://et.wikipedia.org/wiki/Temperatuuriandur"
+    class="sensor-number"
+    style="top: 8%; left: 6%;"
+    target="_blank"
+    data-bs-toggle="tooltip"
+    title="Temperatuuriandur"
+  >
+    5
+  </a>
+
+    <a
+    href="https://digipurk.ee/toode/micro-servo-sg90-360"
+    class="sensor-number"
+    style="top: 8%; left: 22%;"
+    target="_blank"
+    data-bs-toggle="tooltip"
+    title="SG-90 micro servo mootor"
+  >
+    6
+  </a>
+
+    <a
+    href="https://www.keyestudio.com/products/free-shipping-keyestudio-analog-sound-noise-sensor-detection-module-for-arduino"
+    class="sensor-number"
+    style="top: 8%; left: 35%;"
+    target="_blank"
+    data-bs-toggle="tooltip"
+    title="Helisensori moodul"
+  >
+    7
+  </a>
+
+    <a
+    href="https://www.lemona.ee/liikumisanduri-moodul-iduino.html"
+    class="sensor-number"
+    style="top: 8%; left: 47%;"
+    target="_blank"
+    data-bs-toggle="tooltip"
+    title="liikumisanduri moodul"
+  >
+    8
+  </a>
+
+    <a
+    href="https://ee.szks-kuongshun.com/uno/uno-sensor/bmp180-gy-68-digital-barometric-sensor-module.html"
+    class="sensor-number"
+    style="top: 8%; left: 62%;"
+    target="_blank"
+    data-bs-toggle="tooltip"
+    title="Digitaalne õhurõhuanduri moodul"
+  >
+    9
+  </a>
+
+    <a
+    href="https://www.satistronics.com/shop/180836-mq-6-lp-gas-sensor-3786#attr="
+    class="sensor-number"
+    style="top: 8%; left: 73%;"
+    target="_blank"
+    data-bs-toggle="tooltip"
+    title="gaasiandur"
+  >
+    10
+  </a>
+
+    <a
+    href="https://www.researchgate.net/figure/DHT-11-Humidity-and-Temperature-Sensor_fig2_342955394"
+    class="sensor-number"
+    style="top: 8%; left: 89%;"
+    target="_blank"
+    data-bs-toggle="tooltip"
+    title="Temperatuuri- ja niiskusandur"
+  >
+    11
+  </a>
+
+    <a
+    href="https://www.ebay.co.uk/itm/140893044510"
+    class="sensor-number"
+    style="top: 27%; left: 89%;"
+    target="_blank"
+    data-bs-toggle="tooltip"
+    title="LCD(ekraan) moodul"
+  >
+    12
+  </a>
+
+    <a
+    href="https://www.dealalgorithm.com/product-p-656756.html"
+    class="sensor-number"
+    style="top: 40%; left: 89%;"
+    target="_blank"
+    data-bs-toggle="tooltip"
+    title="Ultraheli kaugusmoodul"
+  >
+    13
+  </a>
+
+    <a
+    href="https://electropeak.com/analog-output-flame-sensor-module"
+    class="sensor-number"
+    style="top: 55%; left: 89%;"
+    target="_blank"
+    data-bs-toggle="tooltip"
+    title="tule(leegi)andur"
+  >
+    14
+  </a>
+
+    <a
+    href="https://www.desertcart.sn/products/18696618-arduino-compatible-mini-luminance-light-sensor"
+    class="sensor-number"
+    style="top: 70%; left: 89%;"
+    target="_blank"
+    data-bs-toggle="tooltip"
+    title="Valgustugevuse andur"
+  >
+    15
+  </a>
+
+  <a
+    href="https://et.wikipedia.org/wiki/Liikumisandur"
+    class="sensor-number"
+    style="top: 88%; left: 89%;"
+    target="_blank"
+    data-bs-toggle="tooltip"
+    title="Liikumisandur"
+  >
+    16
+  </a>
+
+</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="andurid" class="py-4">
+    <div class="container">
+      <h2 class="mb-3">Kasutatavad andurid</h2>
+
+      <div class="row">
+        <div class="col-md-4 mb-4" id="temp-sensor">
+          <h3 class="h5">Temperatuuriandur</h3>
+          <p>
+            Mõõdab ruumi temperatuuri ja aitab juhtida kütet või jahutust.
+            Näiteks saab küttesüsteem ise välja lülituda, kui tuba on piisavalt soe.
+          </p>
+          <a
+            href="https://et.wikipedia.org/wiki/Temperatuuriandur"
+            class="btn btn-primary btn-sm"
+            target="_blank"
+          >
+            Loe/vaata rohkem siin
+          </a>
+        </div>
+
+        <div class="col-md-4 mb-4" id="motion-sensor">
+          <h3 class="h5">Liikumisandur</h3>
+          <p>
+            Tuvastab liikumist ruumis. Seda saab kasutada automaatse
+            valgustuse jaoks või valvesüsteemi osana, kui majas ei tohiks kedagi olla.
+          </p>
+          <a
+            href="https://et.wikipedia.org/wiki/Liikumisandur"
+            class="btn btn-primary btn-sm"
+            target="_blank"
+          >
+            Loe/vaata rohkem siin
+          </a>
+        </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <div class="col-md-4 mb-4" id="humidity-sensor">
+          <h3 class="h5">Niiskusandur</h3>
+          <p>
+            Mõõdab õhuniiskust toas. Seda kasutatakse näiteks vannitoas
+            ja keldris, et juhtida ventilatsiooni ning vältida niiskuskahjustusi.
+          </p>
+          <a
+            href="https://en.wikipedia.org/wiki/Hygrometer"
+            class="btn btn-primary btn-sm"
+            target="_blank"
+          >
+            Loe/vaata rohkem siin
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="autor" class="py-4 bg-light">
+    <div class="container">
+      <h2 class="mb-3">Autor</h2>
+      <p>
+        nimi:Fred Brosman
+      </br>
+        üliõpilaskood:255771EDTR
+      </p>
+    </div>
+  </section>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+  </script>
+
+<script>
+  const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+  tooltipTriggerList.forEach(el => new bootstrap.Tooltip(el));
+</script>
+
 </body>
 </html>

@@ -2,3 +2,23 @@ h1{
     color: blue;
     font-size: 24px;
 }
+.image-wrapper {
+      position: relative;
+      display: inline-block;
+      margin-top: 50px;
+    }
+
+    .sensor-number {
+      position: absolute;
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      background: rgba(44, 116, 194, 0.4);
+      color: white;
+      font-size: 14px;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
